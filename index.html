@@ -4,40 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 <header>
     <nav>
-        <a href="#">
+        <a href="/">
             <img src="./images/logo.svg" alt="Логотип сучасної пекарні">
         </a>
        <ul>
         <li>
-           <a href="#">Франшиза</a> 
+           <a href="#traditional-section">Наші традиції</a> 
         </li>
         <li>
-            <a href="#">Наші традиції</a>
+            <a href="#chefs">Шеф кухарі</a>
         </li>
         <li>
-            <a href="#">Формати</a>
+            <a href="#format-section">Формати</a>
         </li>
         <li>
-            <a href="#">Контакти</a>
+            <a href="#contacts-section">Контакти</a>
         </li>
        </ul>
     </nav>
-    <button type="button">Замовити дзвінок</button>
+    <button class="button" type="button">Замовити дзвінок</button>
 </header>
 <main>
 <section>
-    <h1>Сучасна пекарня</h1>
+    <h1 class="main-title">Сучасна пекарня</h1>
     <ul>
         <li>Великий попит на ринку</li>
         <li>Доступні за бюджетом формати</li>
         <li>Досвідчена управлінська команда</li>
     </ul>
 </section>
-<section>
+<section id="traditional-section">
     <h2>Новий формат традицій</h2>
     <p> 
         <span>shop bakery</span> — це пекарня, яка взяла все найкраще, і зберегла смак традиційної випічки та натуральність інгредієнтів.
@@ -48,7 +49,7 @@
     </p>
     <img src="./images/bakerman.jpg" alt="Пекар чоловік дивиться на випіску з пошмішкою">
 </section>
-<section>
+<section id="chefs-section">
     <h2>Нащі найкращі шеф-кухарі</h2>
     <ul>
         <li>
@@ -71,7 +72,7 @@
         </li>
     </ul>
 </section>
-<section>
+<section id="format-section">
     <h2>Формати</h2>
     <ul>
         <li>
@@ -91,8 +92,17 @@
         </li>
     </ul>
 </section>
-<section>
+<section id="contacts-section">
     <h2>Приєднуйтеся до мережі пекрень</h2>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1638712576255!2d30.488658575891176!3d50.456673086916496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637bfe1717%3A0x5370c2254ad1b952!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTQsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1699995909627!5m2!1suk!2sua"
+        width="603" 
+        height="595" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
 </section>
 </main>
 <footer>
@@ -100,10 +110,10 @@
         <!-- logo -->
        <ul>
         <li>
-           <a href="#">Франшиза</a> 
+           <a href="#">Наші традиції</a> 
         </li>
         <li>
-            <a href="#">Наші традиції</a>
+            <a href="#">Шеф кухарі</a>
         </li>
         <li>
             <a href="#">Формати</a>
@@ -126,7 +136,7 @@
             </li>
         </ul>
         <a href="#" target="_blank">Політика конфіденційності</a>
-        <p>© 2023 Дані захищені</p>
+        <p>&copy; 2023 Дані захищені</p>
     </address>
 </footer>
 </body>
