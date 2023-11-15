@@ -55,3 +55,7 @@ cursor: pointer;
 .section-title .accent {
     color: var(--color-brand-dark);
 }
+
+.footer-title {
+    color: #A18268;
+}
