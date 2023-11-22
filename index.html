@@ -12,12 +12,14 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-<header>
-    <nav>
+<header class="header">
+    <div class="conteiner">
+        <div class="header-conteiner">
+    <nav class="header-nav">
         <a href="/">
             <img src="./images/logo.svg" alt="Логотип сучасної пекарні">
         </a>
-       <ul>
+       <ul class="header-menu">
         <li>
            <a class="link" href="#traditional-section">Наші традиції</a> 
         </li>
@@ -28,38 +30,56 @@
             <a class="link" href="#format-section">Формати</a>
         </li>
         <li>
-            <a class="link" href="#contacts-section">Контакти</a>
+            <a class="link" href="#contact-section">Контакти</a>
         </li>
        </ul>
     </nav>
     <button class="button" type="button">Замовити дзвінок</button>
+    </div>
+    </div>
 </header>
 <main>
-<section>
+<section class="hero-section">
+    <div class="conteiner">
     <h1 class="hero-title"><span class="accent">Сучасна</span> пекарня</h1>
-    <ul class="adventages-list">
-        <li class="adventages-item">Великий попит на ринку</li>
-        <li class="adventages-item">Доступні за бюджетом формати</li>
-        <li class="adventages-item">Досвідчена управлінська команда</li>
-    </ul>
+    </div>
 </section>
-<section id="traditional-section">
-    <h2 class="section-title">Новий формат традицій</h2>
-    <p class="traditional-text"> 
-        <span class="brand uppercase">shop bakery</span> — це пекарня, яка взяла все найкраще, і зберегла смак традиційної випічки та натуральність інгредієнтів.
-    </p>
+<section class="adventages-section">
+    <div class="conteiner">
+    <h2 class="visualy-hidden">Наші переваги</h2>
+        <ul class="adventages-list">
+            <li class="adventages-item">Великий попит на ринку</li>
+            <li class="adventages-item">Доступні за бюджетом формати</li>
+            <li class="adventages-item">Досвідчена управлінська команда</li>
+        </ul>
+        </div>
+</section>
+<section class="section traditional-section" id="traditional-section">
+   <div class="conteiner">
+    <div class="traditions-conteiner">
+        <div class="traditions-content">
+            <h2 class="traditional-title section-title">Новий формат традицій</h2>
     <p class="traditional-text">
-        Ми працюємо як найвідоміші мережі — 
-        <span class="brand">5 хвилин і замовлення готове</span> . А ще у наших пекарень стильний дизайн та висока
+        <span class="brand uppercase">shop bakery</span> — це пекарня, яка взяла все найкраще, і зберегла смак  традиційної
+        випічки та натуральність інгредієнтів.
+    </p>
+    <p class="traditional-text limited">
+        Ми працюємо як найвідоміші мережі — s
+        <span class="brand">5 хвилин і замовлення готове</span>. А ще у наших пекарень стильний дизайн та висока
         якість обслуговування!
     </p>
+        </div>
     <img src="./images/bakerman.jpg" alt="Пекар чоловік дивиться на випіску з пошмішкою">
+    </div>
+   </div>
 </section>
-<section id="chefs-section">
-    <h2 class="section-title">Нащі найкращі <span class="accent">шеф-кухарі</span></h2>
+<section class="section" id="chefs-section">
+    <div class="conteiner">
+    <h2 class="chefs-title section-title centered">Нащі найкращі <span class="accent">шеф-кухарі</span></h2>
     <ul>
         <li>
             <article>
+                <img class="chef-photo" src="./images/nastya-chef.jpg" alt="Nastya Chef">
                 <h3 class="chef-title">Настя</h3>
                 <p>Привіт, я Настя!</p>
                 <p>Вже 10 років, я втілюю
@@ -70,6 +90,7 @@
         </li>
         <li>
             <article>
+                <img class="chef-photo" src="./images/vlad-chef.jpg" alt="Vlad Chef">
                 <h3 class="chef-title">Влад</h3>
                 <p>Привіт, я Влад!</p>
                 <p>Мій кодитерський стаж вже 18 років. SHOP BEKERY - це наша любов, з якою ми ділимось кожен раз з Вами через нашу випічку!</p>
@@ -77,23 +98,27 @@
             </article>
         </li>
     </ul>
+    </div>
 </section>
-<section id="format-section">
-    <h2 class="section-title">Формати</h2>
-    <ul>
-        <li>
-            <article>
+<section  class="section"id="format-section">
+    <div class="conteiner">
+    <h2 class="formats-title section-title centered">Формати</h2>
+    <ul class="format-list">
+        <li class="formats-item">
+            <article class="format-card">
                 <h3 class="format-title" lang="en">Walrus</h3>
                 <div class="format-text">
                 <p>Площа: до 120 м2</p>
                 <p>Меню: розширене меню</p>
-                <p>Штат: 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби</p>
+                <p>
+                    Штат: 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби
+                </p>
                 <p>Посадкові місця: є</p>
                 </div>
             </article>
         </li>
-        <li>
-            <article>
+        <li class="formats-item">
+            <article class="format-card">
                 <h3 class="format-title" lang="en">Horseshoe</h3>
                 <div class="format-text">
                 <p>Площа: до 25 м2</p>
@@ -103,8 +128,8 @@
                 </div>
             </article>
         </li>
-        <li>
-            <article>
+        <li class="formats-item">
+            <article class="format-card">
                 <h3 class="format-title" lang="en">Handlebar</h3>
                 <div class="format-text">
                 <p>Площа: до 15 м2</p>
@@ -115,9 +140,11 @@
             </article>
         </li>
     </ul>
+    </div>
 </section>
-<section id="contacts-section">
-    <h2 class="section-title">Приєднуйтеся до мережі пекрень</h2>
+<section class="section" id="contact-section">
+    <div class="conteiner">
+    <h2 class="contact-title section-title">Приєднуйтеся до мережі пекрень</h2>
     <p>Заповни форму, щоб ми звʼязались з тобою!</p>
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1638712576255!2d30.488658575891176!3d50.456673086916496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637bfe1717%3A0x5370c2254ad1b952!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTQsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1699995909627!5m2!1suk!2sua"
@@ -128,9 +155,11 @@
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade">
     </iframe>
+    </div>
 </section>
 </main>
-<footer>
+<footer class="footer">
+    <div class="conteiner">
     <nav>
         <!-- logo -->
        <ul>
@@ -163,6 +192,7 @@
         <a class="address-link" href="#" target="_blank">Політика конфіденційності</a>
         <p class="addres-copyright">&copy; 2023 Дані захищені</p>
     </address>
+    </div>
 </footer>
 </body>
 </html>
